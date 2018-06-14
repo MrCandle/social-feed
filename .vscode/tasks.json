@@ -14,13 +14,13 @@
         {
             "label": "ngserve",
             "type": "shell",
+            "command": "ng",
             "args": [
                 "serve", "--port", "4020"
             ],
-            "command": "ng",
             "isBackground": true,
             "options": {
-                "cwd": "${workspaceFolder}/client"
+                "cwd": "${workspaceFolder}/client",
             },
             "problemMatcher": [
                 {
