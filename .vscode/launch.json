@@ -26,7 +26,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/server/bin/Debug/netcoreapp2.1/social-feed-api.dll",
+            "program": "${workspaceFolder}/server/bin/Debug/netcoreapp2.1/post-api.dll",
             "args": [],
             "cwd": "${workspaceFolder}/server",
             "stopAtEntry": false,

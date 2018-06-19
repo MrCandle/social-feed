@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/server/social-feed-api.csproj"
+                "${workspaceFolder}/server/post-api.csproj"
             ],
             "problemMatcher": "$msCompile"
         },

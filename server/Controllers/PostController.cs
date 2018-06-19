@@ -8,35 +8,35 @@ namespace social_feed_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class PostsController : ControllerBase
     {
-        // GET api/values
+        // GET api/posts
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "post1", "post2" };
         }
 
-        // GET api/values/5
+        // GET api/posts/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return "post";
         }
 
-        // POST api/values
+        // POST api/posts
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT api/values/5
+        // PUT api/posts/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE api/values/5
+        // DELETE api/posts/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
